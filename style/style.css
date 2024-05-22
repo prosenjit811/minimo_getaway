@@ -1,0 +1,161 @@
+/*fonts start*/
+
+@font-face {
+  	src: url(../fonts/ubuntu-light.ttf);
+  	font-family: ubuntu-light;
+  	font-weight: 300;
+}
+@font-face {
+  	src: url(../fonts/playfairdisplay-bold.ttf);
+  	font-family: playfairdisplay-bold;
+  	font-weight: 700;
+}
+@font-face {
+  	src: url(../fonts/playfairdisplay-medium.ttf);
+  	font-family: playfairdisplay-medium;
+  	font-weight: 500;
+}
+@font-face {
+  	src: url(../fonts/playfairdisplay-regular.ttf);
+  	font-family: playfairdisplay-regular;
+  	font-weight: 400;
+}
+
+/*fonts end*/
+
+/*common start*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: playfairdisplay-regular;
+  	font-weight: 400;
+  	font-size: 16px;
+  	color: #626262;
+}
+
+/*common end*/
+
+/*header start*/
+header{
+	padding: 40px 0;
+}
+.container{
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+/*	border: 1px solid red;*/
+}
+.logo{
+	width: 7%;
+	float: left;
+	margin: 13px 0;
+/*	border: 1px solid black;*/
+}
+.l-img img{
+	width: 100%;
+}
+.menu{
+	width: 50%;
+	float: right;
+/*	border: 1px solid green;*/
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+	display: inline-block;
+	margin: 0 50px;
+	transition: .33s liner;
+
+}
+.menu ul li:last-child{
+	margin-right: 0;
+}
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	padding: 40px 0;
+}
+.b_img{
+	margin: 0;
+	padding: 0;
+}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+
+/*photodairy start*/
+
+.photodairy{
+	padding: 60px 0;
+}
+.container_02{
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+/*	border: 1px solid red;*/
+}
+.light{
+	font-family: ubuntu-light;
+  	font-weight: 300;
+  	color: #b4ad9e;
+  	text-transform: uppercase;
+}
+.title{
+  	font-weight: 400;
+    font-size: 30px;
+    margin: 20px 0 30px;
+}
+.p_text{
+  	line-height: 24px;
+  	margin: 0;
+  	padding: 0;
+}
+.p_link{
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+/*photodairy end*/
+
+/*blog start*/
+.blog{
+	padding: 60px 0;
+}
+
+.b_item{
+	width: 47%;
+    float: left;
+/*    border: 1px solid green;*/
+    margin-right: 6%;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+}
+
+.b_item:nth-child(even) {
+	margin-right: 0;
+}
+
+.b_img{
+	margin-bottom: 20px;
+}
+
+.b_img img{
+	width: 100%;
+}
+
+/*blog end*/
